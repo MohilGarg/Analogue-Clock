@@ -1,0 +1,107 @@
+.clock{
+    height: 40rem;
+    width: 40rem;
+    border-radius: 50%;
+    background: rgb(65, 65, 65);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(128, 128, 128);
+}
+
+.clock::before{
+    content:'';
+    width: 30px;
+    height: 30px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    border-radius: 50%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.hand{
+    height: 180px;
+    width: 15px;
+    background: white;
+    position: absolute;
+    top:24.75%;
+    left:49.5%;
+    transform: translate(-50%,-50%);
+    transform-origin: bottom;
+}
+
+.minute{
+    height: 230px;
+    width: 10px;
+    top: 18%;
+    left: 49.75%;
+}
+
+.second{
+    height: 260px;
+    width: 7.5px;
+    top: 14%;
+    left: 49.75%;
+}
+
+
+.one{
+    color: white;
+    font-size: xxx-large;
+}
+.two{
+    color: white;
+    font-size: xxx-large;
+}
+.three{
+    color: white;
+    font-size: xxx-large;
+}
+.four{
+    color: white;
+    font-size: xxx-large;
+}
+.five{
+    color: white;
+    font-size: xxx-large;
+}
+.six{
+    color: white;
+    font-size: xxx-large;
+    position: absolute;
+    top: 86%;
+    left: 49.25%;
+}
+.seven{
+    color: white;
+    font-size: xxx-large;
+}
+.eight{
+    color: white;
+    font-size: xxx-large;
+}
+.nine{
+    color: white;
+    font-size: xxx-large;
+}
+.ten{
+    color: white;
+    font-size: xxx-large;
+}
+.eleven{
+    color: white;
+    font-size: xxx-large;
+}
+.twelve{
+    color: white;
+    font-size: xxx-large;
+    position: absolute;
+    top: 7%;
+    left: 48.25%;
+}
